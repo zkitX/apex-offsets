@@ -26,16 +26,16 @@ r5apex.exe!0x011ba178 VMaterialSystemConfig004
 ## Miscellaneous
 
 ```
-TimeDateStamp = 0x60838f5b
-CheckSum = 0x203b149
-GameVersion = "v3.0.10.135"
+TimeDateStamp = 0x60947dfb
+CheckSum = 0x203c6fc
+GameVersion = "v3.0.1.192"
 NUM_ENT_ENTRIES = 0x10000
 r5apex.exe!0x18eda78 cl_entitylist
 r5apex.exe!0x11bc998 LocalEntityHandle
 r5apex.exe!0x1c9d198 LocalPlayer
 r5apex.exe!0x128bf40 GlobalVars
-r5apex.exe!0x81af4c0 NameList
-r5apex.exe!0x40bf2e8 ViewRender + 0x1b3bd0 ViewMatrix
+r5apex.exe!0x81af540 NameList
+r5apex.exe!0x40bf368 ViewRender + 0x1b3bd0 ViewMatrix
 r5apex.exe!0x128c230 ClientState
 r5apex.exe!0x128c2c8 SignonState
 r5apex.exe!0x128c3e0 LevelName
@@ -46,17 +46,17 @@ CPlayer!0x4428 helmetType
 ## NetworkedStringTables
 
 ```
-r5apex.exe!0x040c1260 EffectDispatch
-r5apex.exe!0x040c09a8 ExtraParticleFilesTable
-r5apex.exe!0x040bf308 ImpactEffectTableNames
-r5apex.exe!0x040c0978 Materials
-r5apex.exe!0x040c1b30 Movies
-r5apex.exe!0x040c1278 ParticleEffectNames
-r5apex.exe!0x040c0488 ScriptNames
-r5apex.exe!0x040bf310 SoundIDs
-r5apex.exe!0x040c0998 VguiScreen
-r5apex.exe!0x040c1b20 WeaponNames
-r5apex.exe!0x040bdf70 localize
+r5apex.exe!0x040c12e0 EffectDispatch
+r5apex.exe!0x040c0a28 ExtraParticleFilesTable
+r5apex.exe!0x040bf388 ImpactEffectTableNames
+r5apex.exe!0x040c09f8 Materials
+r5apex.exe!0x040c1bb0 Movies
+r5apex.exe!0x040c12f8 ParticleEffectNames
+r5apex.exe!0x040c0508 ScriptNames
+r5apex.exe!0x040bf390 SoundIDs
+r5apex.exe!0x040c0a18 VguiScreen
+r5apex.exe!0x040c1ba0 WeaponNames
+r5apex.exe!0x040bdff0 localize
 ```
 
 ## Buttons
@@ -64,54 +64,54 @@ r5apex.exe!0x040bdf70 localize
 These are addresses to global instances of the [`kbutton_t`](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/client/kbutton.h#L14-L20) struct.
 
 ```
-r5apex.exe!0x040c1b90 kbutton_t in_attack
-r5apex.exe!0x040c1cb0 kbutton_t in_backward
-r5apex.exe!0x081afef8 kbutton_t in_break
-r5apex.exe!0x085ae238 kbutton_t in_camin
-r5apex.exe!0x081b01d0 kbutton_t in_camout
-r5apex.exe!0x081b0180 kbutton_t in_campitchdown
-r5apex.exe!0x085ae2c0 kbutton_t in_campitchup
-r5apex.exe!0x081b0210 kbutton_t in_camyawleft
-r5apex.exe!0x081b01b0 kbutton_t in_camyawright
-r5apex.exe!0x040c1b50 kbutton_t in_commandermousemove
-r5apex.exe!0x040c1c20 kbutton_t in_dodge
-r5apex.exe!0x081aff18 kbutton_t in_duck
-r5apex.exe!0x040c1c88 kbutton_t in_forward
-r5apex.exe!0x040c1ba0 kbutton_t in_graph
-r5apex.exe!0x040c1c00 kbutton_t in_jump
-r5apex.exe!0x085ae2a0 kbutton_t in_klook
-r5apex.exe!0x081b01f8 kbutton_t in_left
-r5apex.exe!0x081b01a0 kbutton_t in_lookdown
-r5apex.exe!0x081aff08 kbutton_t in_lookup
-r5apex.exe!0x085ae2b0 kbutton_t in_melee
-r5apex.exe!0x081b0220 kbutton_t in_movedown
-r5apex.exe!0x040c1c78 kbutton_t in_moveleft
-r5apex.exe!0x040c1ca0 kbutton_t in_moveright
-r5apex.exe!0x085ae280 kbutton_t in_moveup
-r5apex.exe!0x085ae290 kbutton_t in_offhand0
-r5apex.exe!0x081b01e8 kbutton_t in_offhand1
-r5apex.exe!0x081affb0 kbutton_t in_offhand2
-r5apex.exe!0x081aff90 kbutton_t in_offhand3
-r5apex.exe!0x081aff48 kbutton_t in_offhand4
-r5apex.exe!0x040c1bf0 kbutton_t in_pause_menu
-r5apex.exe!0x040c1b60 kbutton_t in_ping
-r5apex.exe!0x040c1bb0 kbutton_t in_reload
-r5apex.exe!0x081b01c0 kbutton_t in_right
-r5apex.exe!0x081affc0 kbutton_t in_score
-r5apex.exe!0x081affc0 kbutton_t in_showscores
-r5apex.exe!0x040c1b38 kbutton_t in_speed
-r5apex.exe!0x040c1bc0 kbutton_t in_strafe
-r5apex.exe!0x085ae258 kbutton_t in_toggle_duck
-r5apex.exe!0x085ae248 kbutton_t in_toggle_zoom
-r5apex.exe!0x081affa0 kbutton_t in_use
-r5apex.exe!0x081aff38 kbutton_t in_useAndReload
-r5apex.exe!0x085ae268 kbutton_t in_use_alt
-r5apex.exe!0x081aff28 kbutton_t in_use_long
-r5apex.exe!0x040c1bd8 kbutton_t in_variableScopeToggle
-r5apex.exe!0x081aff68 kbutton_t in_walk
-r5apex.exe!0x081b0190 kbutton_t in_weaponCycle
-r5apex.exe!0x081aff58 kbutton_t in_weapon_discard
-r5apex.exe!0x081aff80 kbutton_t in_zoom
+r5apex.exe!0x040c1c10 kbutton_t in_attack
+r5apex.exe!0x040c1d30 kbutton_t in_backward
+r5apex.exe!0x081aff78 kbutton_t in_break
+r5apex.exe!0x085ae2b8 kbutton_t in_camin
+r5apex.exe!0x081b0250 kbutton_t in_camout
+r5apex.exe!0x081b0200 kbutton_t in_campitchdown
+r5apex.exe!0x085ae340 kbutton_t in_campitchup
+r5apex.exe!0x081b0290 kbutton_t in_camyawleft
+r5apex.exe!0x081b0230 kbutton_t in_camyawright
+r5apex.exe!0x040c1bd0 kbutton_t in_commandermousemove
+r5apex.exe!0x040c1ca0 kbutton_t in_dodge
+r5apex.exe!0x081aff98 kbutton_t in_duck
+r5apex.exe!0x040c1d08 kbutton_t in_forward
+r5apex.exe!0x040c1c20 kbutton_t in_graph
+r5apex.exe!0x040c1c80 kbutton_t in_jump
+r5apex.exe!0x085ae320 kbutton_t in_klook
+r5apex.exe!0x081b0278 kbutton_t in_left
+r5apex.exe!0x081b0220 kbutton_t in_lookdown
+r5apex.exe!0x081aff88 kbutton_t in_lookup
+r5apex.exe!0x085ae330 kbutton_t in_melee
+r5apex.exe!0x081b02a0 kbutton_t in_movedown
+r5apex.exe!0x040c1cf8 kbutton_t in_moveleft
+r5apex.exe!0x040c1d20 kbutton_t in_moveright
+r5apex.exe!0x085ae300 kbutton_t in_moveup
+r5apex.exe!0x085ae310 kbutton_t in_offhand0
+r5apex.exe!0x081b0268 kbutton_t in_offhand1
+r5apex.exe!0x081b0030 kbutton_t in_offhand2
+r5apex.exe!0x081b0010 kbutton_t in_offhand3
+r5apex.exe!0x081affc8 kbutton_t in_offhand4
+r5apex.exe!0x040c1c70 kbutton_t in_pause_menu
+r5apex.exe!0x040c1be0 kbutton_t in_ping
+r5apex.exe!0x040c1c30 kbutton_t in_reload
+r5apex.exe!0x081b0240 kbutton_t in_right
+r5apex.exe!0x081b0040 kbutton_t in_score
+r5apex.exe!0x081b0040 kbutton_t in_showscores
+r5apex.exe!0x040c1bb8 kbutton_t in_speed
+r5apex.exe!0x040c1c40 kbutton_t in_strafe
+r5apex.exe!0x085ae2d8 kbutton_t in_toggle_duck
+r5apex.exe!0x085ae2c8 kbutton_t in_toggle_zoom
+r5apex.exe!0x081b0020 kbutton_t in_use
+r5apex.exe!0x081affb8 kbutton_t in_useAndReload
+r5apex.exe!0x085ae2e8 kbutton_t in_use_alt
+r5apex.exe!0x081affa8 kbutton_t in_use_long
+r5apex.exe!0x040c1c58 kbutton_t in_variableScopeToggle
+r5apex.exe!0x081affe8 kbutton_t in_walk
+r5apex.exe!0x081b0210 kbutton_t in_weaponCycle
+r5apex.exe!0x081affd8 kbutton_t in_weapon_discard
+r5apex.exe!0x081b0000 kbutton_t in_zoom
 ```
 
 ## ClientClasses
@@ -125,19 +125,19 @@ sizeof: `7584`
 <details>
 <summary><code>client_class CAmbientGeneric</code></summary>
 
-class_id: `0`  
+class_id: `1`  
 sizeof: `2752`  
 </details>
 <details>
 <summary><code>client_class CBaseAnimating</code></summary>
 
-class_id: `0`  
+class_id: `2`  
 sizeof: `5776`  
 </details>
 <details>
 <summary><code>client_class CBaseAnimatingOverlay</code></summary>
 
-class_id: `0`  
+class_id: `3`  
 sizeof: `6624`  
 </details>
 <details>
@@ -149,19 +149,19 @@ sizeof: `2720`
 <details>
 <summary><code>client_class CBaseCombatCharacter</code></summary>
 
-class_id: `0`  
+class_id: `4`  
 sizeof: `7136`  
 </details>
 <details>
 <summary><code>client_class CBaseEntity</code></summary>
 
-class_id: `0`  
+class_id: `5`  
 sizeof: `2656`  
 </details>
 <details>
 <summary><code>client_class CBaseGrenade</code></summary>
 
-class_id: `0`  
+class_id: `6`  
 sizeof: `11744`  
 </details>
 <details>
@@ -173,445 +173,445 @@ sizeof: `2656`
 <details>
 <summary><code>client_class CBaseTempEntity</code></summary>
 
-class_id: `0`  
+class_id: `7`  
 sizeof: `40`  
 </details>
 <details>
 <summary><code>client_class CBaseToggle</code></summary>
 
-class_id: `0`  
+class_id: `8`  
 sizeof: `2704`  
 </details>
 <details>
 <summary><code>client_class CBaseTrigger</code></summary>
 
-class_id: `0`  
+class_id: `9`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CBaseVPhysicsTrigger</code></summary>
 
-class_id: `0`  
+class_id: `11`  
 sizeof: `2672`  
 </details>
 <details>
 <summary><code>client_class CBaseViewModel</code></summary>
 
-class_id: `0`  
+class_id: `10`  
 sizeof: `20400`  
 </details>
 <details>
 <summary><code>client_class CBoneFollower</code></summary>
 
-class_id: `0`  
+class_id: `12`  
 sizeof: `2672`  
 </details>
 <details>
 <summary><code>client_class CBreakableProp</code></summary>
 
-class_id: `0`  
+class_id: `13`  
 sizeof: `5776`  
 </details>
 <details>
 <summary><code>client_class CBreakableSurface</code></summary>
 
-class_id: `0`  
+class_id: `14`  
 sizeof: `3776`  
 </details>
 <details>
 <summary><code>client_class CCascadeLight</code></summary>
 
-class_id: `0`  
+class_id: `15`  
 sizeof: `2992`  
 </details>
 <details>
 <summary><code>client_class CColorCorrection</code></summary>
 
-class_id: `0`  
+class_id: `16`  
 sizeof: `2992`  
 </details>
 <details>
 <summary><code>client_class CCrossbowBolt</code></summary>
 
-class_id: `0`  
+class_id: `17`  
 sizeof: `11600`  
 </details>
 <details>
 <summary><code>client_class CDeathBoxProp</code></summary>
 
-class_id: `0`  
+class_id: `18`  
 sizeof: `5904`  
 </details>
 <details>
 <summary><code>client_class CDynamicLight</code></summary>
 
-class_id: `0`  
+class_id: `19`  
 sizeof: `2688`  
 </details>
 <details>
 <summary><code>client_class CDynamicProp</code></summary>
 
-class_id: `0`  
+class_id: `20`  
 sizeof: `5840`  
 </details>
 <details>
 <summary><code>client_class CDynamicPropLightweight</code></summary>
 
-class_id: `0`  
+class_id: `21`  
 sizeof: `5840`  
 </details>
 <details>
 <summary><code>client_class CEntityBlocker</code></summary>
 
-class_id: `0`  
+class_id: `22`  
 sizeof: `2656`  
 </details>
 <details>
 <summary><code>client_class CEntityDissolve</code></summary>
 
-class_id: `0`  
+class_id: `23`  
 sizeof: `2704`  
 </details>
 <details>
 <summary><code>client_class CEntityLinkPage</code></summary>
 
-class_id: `0`  
+class_id: `24`  
 sizeof: `4720`  
 </details>
 <details>
 <summary><code>client_class CEnvDecoy</code></summary>
 
-class_id: `0`  
+class_id: `25`  
 sizeof: `5776`  
 </details>
 <details>
 <summary><code>client_class CEnvWind</code></summary>
 
-class_id: `0`  
+class_id: `26`  
 sizeof: `3040`  
 </details>
 <details>
 <summary><code>client_class CFirstPersonProxy</code></summary>
 
-class_id: `0`  
+class_id: `27`  
 sizeof: `5888`  
 </details>
 <details>
 <summary><code>client_class CFuncBrush</code></summary>
 
-class_id: `0`  
+class_id: `28`  
 sizeof: `2768`  
 </details>
 <details>
 <summary><code>client_class CFuncBrushLightweight</code></summary>
 
-class_id: `0`  
+class_id: `29`  
 sizeof: `2768`  
 </details>
 <details>
 <summary><code>client_class CFuncMoveLinear</code></summary>
 
-class_id: `0`  
+class_id: `30`  
 sizeof: `2704`  
 </details>
 <details>
 <summary><code>client_class CGameRulesProxy</code></summary>
 
-class_id: `0`  
+class_id: `31`  
 sizeof: `2656`  
 </details>
 <details>
 <summary><code>client_class CGlobalNonRewinding</code></summary>
 
-class_id: `0`  
+class_id: `32`  
 sizeof: `4720`  
 </details>
 <details>
 <summary><code>client_class CGrappleHook</code></summary>
 
-class_id: `0`  
+class_id: `33`  
 sizeof: `5792`  
 </details>
 <details>
 <summary><code>client_class CHardPointEntity</code></summary>
 
-class_id: `0`  
+class_id: `34`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CHardPointFrontierEntity</code></summary>
 
-class_id: `0`  
+class_id: `35`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CHealthKit</code></summary>
 
-class_id: `0`  
+class_id: `36`  
 sizeof: `5776`  
 </details>
 <details>
 <summary><code>client_class CImportantOnEntSound</code></summary>
 
-class_id: `0`  
+class_id: `37`  
 sizeof: `2688`  
 </details>
 <details>
 <summary><code>client_class CInfoPlacementHelper</code></summary>
 
-class_id: `0`  
+class_id: `38`  
 sizeof: `2688`  
 </details>
 <details>
 <summary><code>client_class CInfoTarget</code></summary>
 
-class_id: `0`  
+class_id: `39`  
 sizeof: `2656`  
 </details>
 <details>
 <summary><code>client_class CInfoTargetGravity</code></summary>
 
-class_id: `0`  
+class_id: `40`  
 sizeof: `2672`  
 </details>
 <details>
 <summary><code>client_class CInfoTargetMinimap</code></summary>
 
-class_id: `0`  
+class_id: `41`  
 sizeof: `2656`  
 </details>
 <details>
 <summary><code>client_class CLootGrabber</code></summary>
 
-class_id: `0`  
+class_id: `42`  
 sizeof: `5856`  
 </details>
 <details>
 <summary><code>client_class CLootRoller</code></summary>
 
-class_id: `0`  
+class_id: `43`  
 sizeof: `5888`  
 </details>
 <details>
 <summary><code>client_class CMissile</code></summary>
 
-class_id: `0`  
+class_id: `44`  
 sizeof: `11936`  
 </details>
 <details>
 <summary><code>client_class CMovieDisplay</code></summary>
 
-class_id: `0`  
+class_id: `45`  
 sizeof: `3008`  
 </details>
 <details>
 <summary><code>client_class CNPC_Drone</code></summary>
 
-class_id: `0`  
+class_id: `46`  
 sizeof: `7616`  
 </details>
 <details>
 <summary><code>client_class CNPC_Dropship</code></summary>
 
-class_id: `0`  
+class_id: `47`  
 sizeof: `7632`  
 </details>
 <details>
 <summary><code>client_class CNPC_SentryTurret</code></summary>
 
-class_id: `0`  
+class_id: `48`  
 sizeof: `7616`  
 </details>
 <details>
 <summary><code>client_class CNPC_Titan</code></summary>
 
-class_id: `0`  
+class_id: `49`  
 sizeof: `7744`  
 </details>
 <details>
 <summary><code>client_class CParticleSystem</code></summary>
 
-class_id: `0`  
+class_id: `50`  
 sizeof: `2848`  
 </details>
 <details>
 <summary><code>client_class CPhysicsProp</code></summary>
 
-class_id: `0`  
+class_id: `51`  
 sizeof: `5872`  
 </details>
 <details>
 <summary><code>client_class CPlayer</code></summary>
 
-class_id: `0`  
+class_id: `52`  
 sizeof: `17936`  
 </details>
 <details>
 <summary><code>client_class CPlayerDecoy</code></summary>
 
-class_id: `0`  
+class_id: `53`  
 sizeof: `5888`  
 </details>
 <details>
 <summary><code>client_class CPlayerTasklist</code></summary>
 
-class_id: `0`  
+class_id: `54`  
 sizeof: `4016`  
 </details>
 <details>
 <summary><code>client_class CPlayerVehicle</code></summary>
 
-class_id: `0`  
+class_id: `55`  
 sizeof: `7536`  
 </details>
 <details>
 <summary><code>client_class CPlayerWaypoint</code></summary>
 
-class_id: `0`  
+class_id: `56`  
 sizeof: `3424`  
 </details>
 <details>
 <summary><code>client_class CPointCamera</code></summary>
 
-class_id: `0`  
+class_id: `57`  
 sizeof: `2832`  
 </details>
 <details>
 <summary><code>client_class CPortal_PointPush</code></summary>
 
-class_id: `0`  
+class_id: `58`  
 sizeof: `2688`  
 </details>
 <details>
 <summary><code>client_class CPostProcessController</code></summary>
 
-class_id: `0`  
+class_id: `59`  
 sizeof: `2688`  
 </details>
 <details>
 <summary><code>client_class CPredictedFirstPersonProxy</code></summary>
 
-class_id: `0`  
+class_id: `60`  
 sizeof: `5920`  
 </details>
 <details>
 <summary><code>client_class CProjectile</code></summary>
 
-class_id: `0`  
+class_id: `61`  
 sizeof: `11552`  
 </details>
 <details>
 <summary><code>client_class CPropDoor</code></summary>
 
-class_id: `0`  
+class_id: `62`  
 sizeof: `6032`  
 </details>
 <details>
 <summary><code>client_class CPropSurvival</code></summary>
 
-class_id: `0`  
+class_id: `63`  
 sizeof: `5824`  
 </details>
 <details>
 <summary><code>client_class CRopeKeyframe</code></summary>
 
-class_id: `0`  
+class_id: `64`  
 sizeof: `3904`  
 </details>
 <details>
 <summary><code>client_class CScriptMover</code></summary>
 
-class_id: `0`  
+class_id: `65`  
 sizeof: `6336`  
 </details>
 <details>
 <summary><code>client_class CScriptMoverTrainNode</code></summary>
 
-class_id: `0`  
+class_id: `66`  
 sizeof: `4240`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData</code></summary>
 
-class_id: `0`  
+class_id: `67`  
 sizeof: `3184`  
 </details>
 <details>
 <summary><code>client_class CScriptNetDataGlobal</code></summary>
 
-class_id: `0`  
+class_id: `75`  
 sizeof: `3488`  
 </details>
 <details>
 <summary><code>client_class CScriptNetDataGlobalNonRewind</code></summary>
 
-class_id: `0`  
+class_id: `76`  
 sizeof: `3488`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_DEATH_BOX</code></summary>
 
-class_id: `0`  
+class_id: `68`  
 sizeof: `3264`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_GLOBAL</code></summary>
 
-class_id: `0`  
+class_id: `69`  
 sizeof: `3488`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_GLOBAL_NON_REWIND</code></summary>
 
-class_id: `0`  
+class_id: `70`  
 sizeof: `3488`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_PLAYER_EXCLUSIVE</code></summary>
 
-class_id: `0`  
+class_id: `71`  
 sizeof: `3392`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_PLAYER_EXCLUSIVE_EXPANDED</code></summary>
 
-class_id: `0`  
+class_id: `72`  
 sizeof: `3504`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_PLAYER_GLOBAL</code></summary>
 
-class_id: `0`  
+class_id: `73`  
 sizeof: `3392`  
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_TITAN_SOUL</code></summary>
 
-class_id: `0`  
+class_id: `74`  
 sizeof: `3312`  
 </details>
 <details>
 <summary><code>client_class CScriptProp</code></summary>
 
-class_id: `0`  
+class_id: `77`  
 sizeof: `6000`  
 </details>
 <details>
 <summary><code>client_class CScriptTraceVolume</code></summary>
 
-class_id: `0`  
+class_id: `78`  
 sizeof: `2704`  
 </details>
 <details>
 <summary><code>client_class CShieldProp</code></summary>
 
-class_id: `0`  
+class_id: `79`  
 sizeof: `5856`  
 </details>
 <details>
 <summary><code>client_class CSkyCamera</code></summary>
 
-class_id: `0`  
+class_id: `80`  
 sizeof: `2656`  
 </details>
 <details>
@@ -623,199 +623,199 @@ sizeof: `5920`
 <details>
 <summary><code>client_class CStatusEffectPlugin</code></summary>
 
-class_id: `0`  
+class_id: `81`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CTEBreakModel</code></summary>
 
-class_id: `0`  
+class_id: `83`  
 sizeof: `112`  
 </details>
 <details>
 <summary><code>client_class CTEEffectDispatch</code></summary>
 
-class_id: `0`  
+class_id: `84`  
 sizeof: `208`  
 </details>
 <details>
 <summary><code>client_class CTEExplosion</code></summary>
 
-class_id: `0`  
+class_id: `85`  
 sizeof: `128`  
 </details>
 <details>
 <summary><code>client_class CTEGibEvent</code></summary>
 
-class_id: `0`  
+class_id: `86`  
 sizeof: `56`  
 </details>
 <details>
 <summary><code>client_class CTEParticleSystem</code></summary>
 
-class_id: `0`  
+class_id: `87`  
 sizeof: `56`  
 </details>
 <details>
 <summary><code>client_class CTEPhysicsProp</code></summary>
 
-class_id: `0`  
+class_id: `88`  
 sizeof: `96`  
 </details>
 <details>
 <summary><code>client_class CTEProjectileTrail</code></summary>
 
-class_id: `0`  
+class_id: `89`  
 sizeof: `88`  
 </details>
 <details>
 <summary><code>client_class CTEScriptParticleSystem</code></summary>
 
-class_id: `0`  
+class_id: `90`  
 sizeof: `80`  
 </details>
 <details>
 <summary><code>client_class CTEScriptParticleSystemOnEntity</code></summary>
 
-class_id: `0`  
+class_id: `91`  
 sizeof: `64`  
 </details>
 <details>
 <summary><code>client_class CTEScriptParticleSystemOnEntityWithPos</code></summary>
 
-class_id: `0`  
+class_id: `92`  
 sizeof: `88`  
 </details>
 <details>
 <summary><code>client_class CTEShatterSurface</code></summary>
 
-class_id: `0`  
+class_id: `93`  
 sizeof: `104`  
 </details>
 <details>
 <summary><code>client_class CTESoundDispatch</code></summary>
 
-class_id: `0`  
+class_id: `94`  
 sizeof: `72`  
 </details>
 <details>
 <summary><code>client_class CTeam</code></summary>
 
-class_id: `0`  
+class_id: `82`  
 sizeof: `3008`  
 </details>
 <details>
 <summary><code>client_class CTitanSoul</code></summary>
 
-class_id: `0`  
+class_id: `95`  
 sizeof: `3552`  
 </details>
 <details>
 <summary><code>client_class CTriggerCylinderHeavy</code></summary>
 
-class_id: `0`  
+class_id: `96`  
 sizeof: `2928`  
 </details>
 <details>
 <summary><code>client_class CTriggerNoGrapple</code></summary>
 
-class_id: `0`  
+class_id: `97`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CTriggerNoObjectPlacement</code></summary>
 
-class_id: `0`  
+class_id: `98`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CTriggerNoZipline</code></summary>
 
-class_id: `0`  
+class_id: `99`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CTriggerPlayerMovement</code></summary>
 
-class_id: `0`  
+class_id: `100`  
 sizeof: `2736`  
 </details>
 <details>
 <summary><code>client_class CTriggerPointGravity</code></summary>
 
-class_id: `0`  
+class_id: `101`  
 sizeof: `2752`  
 </details>
 <details>
 <summary><code>client_class CTriggerSlip</code></summary>
 
-class_id: `0`  
+class_id: `102`  
 sizeof: `2752`  
 </details>
 <details>
 <summary><code>client_class CTriggerUpdraft</code></summary>
 
-class_id: `0`  
+class_id: `103`  
 sizeof: `2720`  
 </details>
 <details>
 <summary><code>client_class CTurret</code></summary>
 
-class_id: `0`  
+class_id: `104`  
 sizeof: `6816`  
 </details>
 <details>
 <summary><code>client_class CVGuiScreen</code></summary>
 
-class_id: `0`  
+class_id: `105`  
 sizeof: `2832`  
 </details>
 <details>
 <summary><code>client_class CVortexSphere</code></summary>
 
-class_id: `0`  
+class_id: `106`  
 sizeof: `2736`  
 </details>
 <details>
 <summary><code>client_class CWaterLODControl</code></summary>
 
-class_id: `0`  
+class_id: `107`  
 sizeof: `2672`  
 </details>
 <details>
 <summary><code>client_class CWeaponX</code></summary>
 
-class_id: `0`  
+class_id: `108`  
 sizeof: `26528`  
 </details>
 <details>
 <summary><code>client_class CWorld</code></summary>
 
-class_id: `0`  
+class_id: `109`  
 sizeof: `4912`  
 </details>
 <details>
 <summary><code>client_class CZipline</code></summary>
 
-class_id: `0`  
+class_id: `110`  
 sizeof: `4208`  
 </details>
 <details>
 <summary><code>client_class CZiplineEnd</code></summary>
 
-class_id: `0`  
+class_id: `111`  
 sizeof: `2672`  
 </details>
 <details>
 <summary><code>client_class DoorMover</code></summary>
 
-class_id: `0`  
+class_id: `112`  
 sizeof: `6352`  
 </details>
 <details>
 <summary><code>client_class ScriptMoverLightweight</code></summary>
 
-class_id: `0`  
+class_id: `113`  
 sizeof: `6352`  
 </details>
 <details>
@@ -30111,7 +30111,7 @@ max value: `24`
 
 ```
 r5apex.exe!0x01ed7920 ConVar 
-r5apex.exe!0x05932940 ConVar Allow_auto_Party
+r5apex.exe!0x059329c0 ConVar Allow_auto_Party
 r5apex.exe!0x01310710 ConVar AutoRejectInviteToPlay
 r5apex.exe!0x013107b0 ConVar AutoRejectNewRules
 r5apex.exe!0x011b3840 ConVar BlendBonesMode
@@ -30138,8 +30138,8 @@ r5apex.exe!0x01308030 ConVar EADP_um_enabled
 r5apex.exe!0x013080d0 ConVar EADP_um_path
 r5apex.exe!0x01307930 ConVar EAPD_friends_invite_has_platform
 r5apex.exe!0x012d69a0 ConVar Invite_Flyout_Off
-r5apex.exe!0x05932e30 ConVar OriginAllowRebootClientAuthTokens
-r5apex.exe!0x0592d660 ConVar OriginRebootClientAuthTokens_Retryinterval
+r5apex.exe!0x05932eb0 ConVar OriginAllowRebootClientAuthTokens
+r5apex.exe!0x0592d6e0 ConVar OriginRebootClientAuthTokens_Retryinterval
 r5apex.exe!0x01e9bec0 ConVar ScriptDisallowedToUsePersistenceOnSP
 r5apex.exe!0x01e9db70 ConVar ScriptSaveAllowed
 r5apex.exe!0x011c7710 ConVar StreamMicDisabled
@@ -30516,7 +30516,7 @@ r5apex.exe!0x011b7860 ConVar clock_bias_mp
 r5apex.exe!0x011b8750 ConVar clock_bias_sp
 r5apex.exe!0x011b7e80 ConVar clock_showcorrections
 r5apex.exe!0x011b86b0 ConVar clock_showdebuginfo
-r5apex.exe!0x0592d390 ConVar closecaption
+r5apex.exe!0x0592d410 ConVar closecaption
 r5apex.exe!0x018e94c0 ConVar clubs_showInvites
 r5apex.exe!0x01ce2830 ConVar cockpitDrift_scalePitch
 r5apex.exe!0x01ce30d0 ConVar cockpitDrift_scaleYaw
@@ -30606,7 +30606,7 @@ r5apex.exe!0x018ea580 ConVar csm_z_cover_world
 r5apex.exe!0x0130c090 ConVar curl_allowHTTPS
 r5apex.exe!0x0130c270 ConVar curl_preloadDlls
 r5apex.exe!0x0130c1d0 ConVar curl_spamAllQueryStates
-r5apex.exe!0x07844810 ConVar cursorWide
+r5apex.exe!0x07844890 ConVar cursorWide
 r5apex.exe!0x01eb6f70 ConVar damageIndicatorReplayTimeOffset
 r5apex.exe!0x01e9e150 ConVar damage_indicator_style_pilot
 r5apex.exe!0x01c97df0 ConVar damageinfo_defendInvalidValues
@@ -31569,20 +31569,20 @@ r5apex.exe!0x013068b0 ConVar openInvites_filterByLanguage
 r5apex.exe!0x01306b70 ConVar openInvites_filterByRegion
 r5apex.exe!0x0130cc20 ConVar openinvite_duration_default
 r5apex.exe!0x01c7a080 ConVar ordnanceSwapSelectCooldown
-r5apex.exe!0x05932d90 ConVar origin_Errorlevel_OldBehaviour
-r5apex.exe!0x059330b0 ConVar origin_Errorlevel_Telementry
-r5apex.exe!0x05933010 ConVar origin_authCodeFailureMaxBackoffSeconds
-r5apex.exe!0x0592d970 ConVar origin_autoRefreshTokenClient
-r5apex.exe!0x05932ed0 ConVar origin_autoRefreshTokenServer
-r5apex.exe!0x05932bd0 ConVar origin_debug
-r5apex.exe!0x0592d830 ConVar origin_disconnectWhenOffline
-r5apex.exe!0x0592d8d0 ConVar origin_ignoreInvitesOnLoadScreen
+r5apex.exe!0x05932e10 ConVar origin_Errorlevel_OldBehaviour
+r5apex.exe!0x05933130 ConVar origin_Errorlevel_Telementry
+r5apex.exe!0x05933090 ConVar origin_authCodeFailureMaxBackoffSeconds
+r5apex.exe!0x0592d9f0 ConVar origin_autoRefreshTokenClient
+r5apex.exe!0x05932f50 ConVar origin_autoRefreshTokenServer
+r5apex.exe!0x05932c50 ConVar origin_debug
+r5apex.exe!0x0592d8b0 ConVar origin_disconnectWhenOffline
+r5apex.exe!0x0592d950 ConVar origin_ignoreInvitesOnLoadScreen
 r5apex.exe!0x0130eb10 ConVar origin_igo_mutes_sound_enabled
-r5apex.exe!0x0592d5c0 ConVar origin_igo_mutes_sound_enabled
+r5apex.exe!0x0592d640 ConVar origin_igo_mutes_sound_enabled
 r5apex.exe!0x018e25d0 ConVar origin_igo_muting_sound
-r5apex.exe!0x0592d790 ConVar origin_keepOldPresence
-r5apex.exe!0x05932c70 ConVar origin_presense_updateRate
-r5apex.exe!0x05932f70 ConVar origin_tokenFailureMaxBackoffSeconds
+r5apex.exe!0x0592d810 ConVar origin_keepOldPresence
+r5apex.exe!0x05932cf0 ConVar origin_presense_updateRate
+r5apex.exe!0x05932ff0 ConVar origin_tokenFailureMaxBackoffSeconds
 r5apex.exe!0x01ed04d0 ConVar panel_showVisChanges
 r5apex.exe!0x01ed0110 ConVar panel_test_title_safe
 r5apex.exe!0x01ec7e00 ConVar parenting_debug
@@ -32284,7 +32284,7 @@ r5apex.exe!0x01323300 ConVar stream_temp_old_abort_all_behavior
 r5apex.exe!0x01323760 ConVar stream_temp_skip_abort_all
 r5apex.exe!0x011c2890 ConVar stringtable_alwaysrebuilddictionaries
 r5apex.exe!0x011be770 ConVar stringtable_compress
-r5apex.exe!0x059329e0 ConVar stryder_forceOriginUsersInvisible
+r5apex.exe!0x05932a60 ConVar stryder_forceOriginUsersInvisible
 r5apex.exe!0x01307410 ConVar stryder_security
 r5apex.exe!0x01c9d050 ConVar stuck_debugging
 r5apex.exe!0x01ccd9b0 ConVar stuck_debugging_world_only
@@ -36598,7 +36598,7 @@ r5apex.exe!0x01307be0 ConCommand EADP_search_test2
 r5apex.exe!0x013077b0 ConCommand EADP_unfriend_user_test
 r5apex.exe!0x0128aa00 ConCommand MemTrackDeltaSnapshot
 r5apex.exe!0x0128a4e0 ConCommand MemTrackPrintStats
-r5apex.exe!0x05932d10 ConCommand OriginRebootCLientAuthTokens_Test
+r5apex.exe!0x05932d90 ConCommand OriginRebootCLientAuthTokens_Test
 r5apex.exe!0x01310250 ConCommand RTM_FORCE_shutdown
 r5apex.exe!0x018ea6f0 ConCommand ReloadAimAssistSettings
 r5apex.exe!0x01eafc20 ConCommand XLOG_TLS_close_connections
@@ -36687,10 +36687,10 @@ r5apex.exe!0x0130a070 ConCommand dfs_print_true_flags
 r5apex.exe!0x011b8dd0 ConCommand disconnect
 r5apex.exe!0x0130abd0 ConCommand display_elapsedtime
 r5apex.exe!0x01ec8700 ConCommand dlight_debug
-r5apex.exe!0x05933150 ConCommand do_InvitePeople_test
-r5apex.exe!0x05932b60 ConCommand do_Invite_friend_test
-r5apex.exe!0x0592d700 ConCommand do_joinPeople_test
-r5apex.exe!0x05932a80 ConCommand do_origin_test_presence
+r5apex.exe!0x059331d0 ConCommand do_InvitePeople_test
+r5apex.exe!0x05932be0 ConCommand do_Invite_friend_test
+r5apex.exe!0x0592d780 ConCommand do_joinPeople_test
+r5apex.exe!0x05932b00 ConCommand do_origin_test_presence
 r5apex.exe!0x011c5990 ConCommand downloadPlaylists
 r5apex.exe!0x01c9c100 ConCommand dumpClientStringTable
 r5apex.exe!0x011c1ef0 ConCommand dumpstringtables
@@ -36820,7 +36820,7 @@ r5apex.exe!0x0130a410 ConCommand net_writeStatsFile
 r5apex.exe!0x0128b790 ConCommand openinvite
 r5apex.exe!0x0128abe0 ConCommand openinvitecomplete
 r5apex.exe!0x0128a960 ConCommand openinvitelaunch
-r5apex.exe!0x05932af0 ConCommand origin_friendlist_dump
+r5apex.exe!0x05932b70 ConCommand origin_friendlist_dump
 r5apex.exe!0x018e0240 ConCommand particle_create
 r5apex.exe!0x018e3470 ConCommand particle_create_on_me
 r5apex.exe!0x01c6f2d0 ConCommand particle_create_ss
@@ -36882,7 +36882,7 @@ r5apex.exe!0x01c97770 ConCommand scoreboard_profile
 r5apex.exe!0x01c95220 ConCommand scoreboard_toggle_focus
 r5apex.exe!0x01c944a0 ConCommand scoreboard_up
 r5apex.exe!0x0128a0a0 ConCommand screenshot
-r5apex.exe!0x0785eb70 ConCommand script_mem_report
+r5apex.exe!0x0785ebf0 ConCommand script_mem_report
 r5apex.exe!0x01eb59b0 ConCommand scriptremotefunctions_client_dump
 r5apex.exe!0x01eb7360 ConCommand scriptremotefunctions_print_client_stats
 r5apex.exe!0x011bdbc0 ConCommand server_single_frame
@@ -37008,20 +37008,20 @@ r5apex.exe!0x01ed3750 .?AUSQUserData@@
 r5apex.exe!0x01ed3b10 .?AUSQVM@@
 r5apex.exe!0x01ed3b38 .?AUSQWeakRef@@
 r5apex.exe!0x018c5000 .?AV?$CCallResult@VSteamWrapper_HTMLSurfaceCallbackHandler_s@@UHTML_BrowserReady_t@@@@
-r5apex.exe!0x05a18328 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18390 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18398 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a183b8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18420 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18428 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18448 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a184b0 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a184b8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a184d8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18540 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x05a18548 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
-r5apex.exe!0x04199a20 .?AV?$CDataManager@VCBoneCache@@Ubonecacheparams_t@@PEAV1@VCThreadFastMutex@@@@
-r5apex.exe!0x04199ad0 .?AV?$CDataManager@VCBoneCache@@Ubonecacheparams_t@@PEAV1@VCThreadFastMutex@@@@
+r5apex.exe!0x05a183a8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a18410 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a18418 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a18438 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a184a0 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a184a8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a184c8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a18530 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a18538 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a18558 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a185c0 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x05a185c8 .?AV?$CConCommandMemberAccessor@VCMaterialSystem@@@@
+r5apex.exe!0x04199aa0 .?AV?$CDataManager@VCBoneCache@@Ubonecacheparams_t@@PEAV1@VCThreadFastMutex@@@@
+r5apex.exe!0x04199b50 .?AV?$CDataManager@VCBoneCache@@Ubonecacheparams_t@@PEAV1@VCThreadFastMutex@@@@
 r5apex.exe!0x0128bc68 .?AV?$CPanelFactory@VCMovieDisplayScreen@@UVGuiScreenInitData_t@@@@
 r5apex.exe!0x0128b2c8 .?AV?$CPanelFactory@VCVGuiScreenPanel@@UVGuiScreenInitData_t@@@@
 r5apex.exe!0x01ecd388 .?AV?$CParticleOperatorDefinition@VC_INIT_AgeNoise@@@@
@@ -37211,9 +37211,9 @@ r5apex.exe!0x01eb4ea8 .?AV?$CParticleOperatorDefinition@VC_OP_WorldCollideConstr
 r5apex.exe!0x01eb5d68 .?AV?$CParticleOperatorDefinition@VC_OP_WorldTraceConstraint@@@@
 r5apex.exe!0x018e3810 .?AV?$C_EntityClassList@VC_PointCamera@@@@
 r5apex.exe!0x01c83028 .?AV?$C_EntityClassList@VC_TriggerPlayerMovement@@@@
-r5apex.exe!0x01efbe60 .?AVAddressV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc910 .?AVAssignErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb3b0 .?AVBinaryMessage@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbee0 .?AVAddressV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc990 .?AVAssignErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb430 .?AVBinaryMessage@protocol@antelope@eadp@ea@com@@
 r5apex.exe!0x018e9600 .?AVCAimAssistTargets@@
 r5apex.exe!0x018e9608 .?AVCAimAssistTargets@@
 r5apex.exe!0x011c9040 .?AVCAvi@@
@@ -37247,7 +37247,8 @@ r5apex.exe!0x01edc608 .?AVCBaseResourcePrecacher@@
 r5apex.exe!0x01edc778 .?AVCBaseResourcePrecacher@@
 r5apex.exe!0x01edf268 .?AVCBaseResourcePrecacher@@
 r5apex.exe!0x01edf328 .?AVCBaseResourcePrecacher@@
-r5apex.exe!0x04f600b0 .?AVCBik@@
+r5apex.exe!0x04f60130 .?AVCBik@@
+r5apex.exe!0x069e4538 .?AVCBik@@
 r5apex.exe!0x01ecf588 .?AVCBoolProperty@@
 r5apex.exe!0x01c6f5d0 .?AVCCascadeLightManager@@
 r5apex.exe!0x01c97380 .?AVCCenterPrint@@
@@ -37256,8 +37257,8 @@ r5apex.exe!0x01c91b50 .?AVCClientCollisionEvent@@
 r5apex.exe!0x011c0338 .?AVCClientDLLSharedAppSystems@@
 r5apex.exe!0x018eda70 .?AVCClientEntityList@@
 r5apex.exe!0x01b6dac8 .?AVCClientEntityList@@
-r5apex.exe!0x06578540 .?AVCClientLeafSystem@@
-r5apex.exe!0x06571150 .?AVCClientShadowMgr@@
+r5apex.exe!0x065785c0 .?AVCClientLeafSystem@@
+r5apex.exe!0x065711d0 .?AVCClientShadowMgr@@
 r5apex.exe!0x011b82d8 .?AVCClientSound@@
 r5apex.exe!0x0128c230 .?AVCClientState@@
 r5apex.exe!0x0128c238 .?AVCClientState@@
@@ -37270,8 +37271,8 @@ r5apex.exe!0x018d5d20 .?AVCColorCorrectionMgr@@
 r5apex.exe!0x013144b0 .?AVCColorCorrectionSystem@@
 r5apex.exe!0x01ecf578 .?AVCColorProperty@@
 r5apex.exe!0x018c4780 .?AVCCommandLine@@
-r5apex.exe!0x05a15dd8 .?AVCCountedStringPool@@
-r5apex.exe!0x05a15e28 .?AVCCountedStringPool@@
+r5apex.exe!0x05a15e58 .?AVCCountedStringPool@@
+r5apex.exe!0x05a15ea8 .?AVCCountedStringPool@@
 r5apex.exe!0x018c81e0 .?AVCCvar@@
 r5apex.exe!0x011b65d0 .?AVCCvarQuery@@
 r5apex.exe!0x01c8b0d8 .?AVCDebugOverlayPanel@@
@@ -37285,18 +37286,40 @@ r5apex.exe!0x01eb1ae0 .?AVCEmptyGameUIConVar@@
 r5apex.exe!0x011c3e40 .?AVCEngine@@
 r5apex.exe!0x0130f7a0 .?AVCEngineAPI@@
 r5apex.exe!0x011b5668 .?AVCEngineClient@@
-r5apex.exe!0x02c42298 .?AVCEngineClient@@
+r5apex.exe!0x02c42318 .?AVCEngineClient@@
 r5apex.exe!0x011b9c98 .?AVCEngineConsoleLoggingListener@@
 r5apex.exe!0x011b5298 .?AVCEngineTraceClient@@
 r5apex.exe!0x011b3a58 .?AVCEngineTraceClientDecals@@
 r5apex.exe!0x011b76d8 .?AVCEngineUniformRandomStream@@
 r5apex.exe!0x011c35c0 .?AVCEngineVGui@@
+r5apex.exe!0x0338fa98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x03398298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033a0a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033a9298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033b1a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033ba298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033c2a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033cb298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033d3a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033dc298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033e4a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033ed298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033f5a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x033fe298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x03406a98 .?AVCEntityListAlongRay@@
+r5apex.exe!0x0340f298 .?AVCEntityListAlongRay@@
+r5apex.exe!0x0344aaa8 .?AVCEntityListAlongRay@@
+r5apex.exe!0x034532a8 .?AVCEntityListAlongRay@@
+r5apex.exe!0x0345baa8 .?AVCEntityListAlongRay@@
+r5apex.exe!0x034642a8 .?AVCEntityListAlongRay@@
+r5apex.exe!0x0346caa8 .?AVCEntityListAlongRay@@
+r5apex.exe!0x034752a8 .?AVCEntityListAlongRay@@
 r5apex.exe!0x012d1c60 .?AVCEntityReadInfo@@
 r5apex.exe!0x018c8350 .?AVCEventSystem@@
 r5apex.exe!0x0128b3d8 .?AVCExampleEffect@@
 r5apex.exe!0x01c907a0 .?AVCFPS@@
-r5apex.exe!0x05a15be0 .?AVCFileSystem_Stdio@@
-r5apex.exe!0x05a15be8 .?AVCFileSystem_Stdio@@
+r5apex.exe!0x05a15c60 .?AVCFileSystem_Stdio@@
+r5apex.exe!0x05a15c68 .?AVCFileSystem_Stdio@@
 r5apex.exe!0x01ecf640 .?AVCFloatProperty@@
 r5apex.exe!0x011c2ad8 .?AVCGameClientExports@@
 r5apex.exe!0x01eb1900 .?AVCGameUI@@
@@ -37309,7 +37332,7 @@ r5apex.exe!0x011b4e20 .?AVCIVDebugOverlay@@
 r5apex.exe!0x01c86940 .?AVCInput@@
 r5apex.exe!0x013143e0 .?AVCInputStackSystem@@
 r5apex.exe!0x01314500 .?AVCInputSystem@@
-r5apex.exe!0x07844d40 .?AVCInputWin32@@
+r5apex.exe!0x07844dc0 .?AVCInputWin32@@
 r5apex.exe!0x01ecf598 .?AVCIntProperty@@
 r5apex.exe!0x018eab70 .?AVCKeyBindingListenerMgr@@
 r5apex.exe!0x018c9b40 .?AVCKeyValuesSystem@@
@@ -37318,14 +37341,14 @@ r5apex.exe!0x011bbd98 .?AVCListOps@TSListTests@@
 r5apex.exe!0x01c924a8 .?AVCLoadingDisc@@
 r5apex.exe!0x01316740 .?AVCLocalize@@
 r5apex.exe!0x01ecc5b0 .?AVCMDLCache@@
-r5apex.exe!0x05a185a0 .?AVCMatQueuedRenderContext@@
-r5apex.exe!0x05a185a8 .?AVCMatQueuedRenderContext@@
-r5apex.exe!0x05a18770 .?AVCMatRenderContext@@
-r5apex.exe!0x05a18778 .?AVCMatRenderContext@@
-r5apex.exe!0x0784dbb0 .?AVCMatSystemSurface@@
-r5apex.exe!0x0784dbb8 .?AVCMatSystemSurface@@
-r5apex.exe!0x0784dbc0 .?AVCMatSystemSurface@@
-r5apex.exe!0x05a18320 .?AVCMaterialSystem@@
+r5apex.exe!0x05a18620 .?AVCMatQueuedRenderContext@@
+r5apex.exe!0x05a18628 .?AVCMatQueuedRenderContext@@
+r5apex.exe!0x05a187f0 .?AVCMatRenderContext@@
+r5apex.exe!0x05a187f8 .?AVCMatRenderContext@@
+r5apex.exe!0x0784dc30 .?AVCMatSystemSurface@@
+r5apex.exe!0x0784dc38 .?AVCMatSystemSurface@@
+r5apex.exe!0x0784dc40 .?AVCMatSystemSurface@@
+r5apex.exe!0x05a183a0 .?AVCMaterialSystem@@
 r5apex.exe!0x01c905b0 .?AVCMessageChars@@
 r5apex.exe!0x00ed0c98 .?AVCMessageListener@vgui@@
 r5apex.exe!0x011b63b8 .?AVCModelInfoClient@@
@@ -37341,7 +37364,7 @@ r5apex.exe!0x01ed7300 .?AVCPanelMetaClassMgrImp@@
 r5apex.exe!0x01ed7830 .?AVCParticleMgr@@
 r5apex.exe!0x011bc0c8 .?AVCPhysicsCollision@@
 r5apex.exe!0x018c7d70 .?AVCPhysicsInterface@@
-r5apex.exe!0x065486d8 .?AVCPhysicsSurfaceProps@@
+r5apex.exe!0x06548758 .?AVCPhysicsSurfaceProps@@
 r5apex.exe!0x0128bbc8 .?AVCPhysicsSystem@@
 r5apex.exe!0x01c9ddb0 .?AVCPickupList@@
 r5apex.exe!0x011c1f58 .?AVCPixelVisibilitySystem@@
@@ -37364,16 +37387,16 @@ r5apex.exe!0x011b6a78 .?AVCSaveRestoreFileSystemPassthrough@@
 r5apex.exe!0x01ed0650 .?AVCSchemeManager@@
 r5apex.exe!0x0128b678 .?AVCScreenSpaceEffectManager@@
 r5apex.exe!0x011b3a40 .?AVCScriptLib@@
-r5apex.exe!0x04f67400 .?AVCServer@@
+r5apex.exe!0x04f67480 .?AVCServer@@
 r5apex.exe!0x01322e10 .?AVCShaderSystem@@
 r5apex.exe!0x011b2e88 .?AVCSimpleLoggingListener@@
-r5apex.exe!0x0b411b38 .?AVCSimpleLoggingListener@@
+r5apex.exe!0x0b411bb8 .?AVCSimpleLoggingListener@@
 r5apex.exe!0x011b2e98 .?AVCSimpleWindowsLoggingListener@@
 r5apex.exe!0x01cd4cc8 .?AVCSolidSetDefaults@@
 r5apex.exe!0x0128c220 .?AVCSplitScreen@@
 r5apex.exe!0x011c7180 .?AVCStaticPropMgr@@
 r5apex.exe!0x011c7188 .?AVCStaticPropMgr@@
-r5apex.exe!0x081ac4c0 .?AVCStdMemAlloc@@
+r5apex.exe!0x081ac540 .?AVCStdMemAlloc@@
 r5apex.exe!0x01ecf590 .?AVCStringProperty@@
 r5apex.exe!0x018c42e0 .?AVCStudioRenderContext@@
 r5apex.exe!0x01ed08f8 .?AVCSurfaceDragDropTarget@@
@@ -37381,6 +37404,12 @@ r5apex.exe!0x01ed06b0 .?AVCSystem@@
 r5apex.exe!0x01c7cee0 .?AVCTempEnts@@
 r5apex.exe!0x01ed0b00 .?AVCTextureDictionary@@
 r5apex.exe!0x01ecf690 .?AVCTextureIdProperty@@
+r5apex.exe!0x03448f48 .?AVCTraceFilterHitAll@@
+r5apex.exe!0x03451748 .?AVCTraceFilterHitAll@@
+r5apex.exe!0x03459f48 .?AVCTraceFilterHitAll@@
+r5apex.exe!0x03462748 .?AVCTraceFilterHitAll@@
+r5apex.exe!0x0346af48 .?AVCTraceFilterHitAll@@
+r5apex.exe!0x03473748 .?AVCTraceFilterHitAll@@
 r5apex.exe!0x01ecafb8 .?AVCTraceFilterPhysicsTunnel_Client@@
 r5apex.exe!0x011b6968 .?AVCUniformRandomStream@@
 r5apex.exe!0x011bc558 .?AVCUniformRandomStream@@
@@ -37388,7 +37417,7 @@ r5apex.exe!0x018c58e0 .?AVCUtlCStringConversion@@
 r5apex.exe!0x018c6b00 .?AVCUtlNoEscConversion@@
 r5apex.exe!0x011b7188 .?AVCVEfx@@
 r5apex.exe!0x011b88c8 .?AVCVEngineServer@@
-r5apex.exe!0x07844bb0 .?AVCVGui@@
+r5apex.exe!0x07844c30 .?AVCVGui@@
 r5apex.exe!0x011b6e18 .?AVCVRenderView@@
 r5apex.exe!0x01c93a40 .?AVCVScriptGameSystem@@
 r5apex.exe!0x01c90f20 .?AVCViewEffects@@
@@ -37396,16 +37425,16 @@ r5apex.exe!0x01c96da0 .?AVCViewEffects@@
 r5apex.exe!0x01ce6a80 .?AVCViewRender@@
 r5apex.exe!0x0128b7f8 .?AVCViewportClientSystem@@
 r5apex.exe!0x011b77b8 .?AVCVoiceServer@@
-r5apex.exe!0x078449b0 .?AVCWin32Surface@@
-r5apex.exe!0x078449b8 .?AVCWin32Surface@@
-r5apex.exe!0x078449c0 .?AVCWin32Surface@@
+r5apex.exe!0x07844a30 .?AVCWin32Surface@@
+r5apex.exe!0x07844a38 .?AVCWin32Surface@@
+r5apex.exe!0x07844a40 .?AVCWin32Surface@@
 r5apex.exe!0x011bc738 .?AVC_BaseAnimatingGameSystem@@
 r5apex.exe!0x01cd89b0 .?AVC_DataObjectAccessSystem@@
 r5apex.exe!0x01ece498 .?AVC_DefaultParticleSystemQuery@@
 r5apex.exe!0x01306d98 .?AVC_DirtySpatialPartitionEntityList@@
 r5apex.exe!0x01c9d190 .?AVC_GameMovement@@
 r5apex.exe!0x01cb6c90 .?AVC_GameRules@@
-r5apex.exe!0x068cad00 .?AVC_GameStringPool@@
+r5apex.exe!0x068cad80 .?AVC_GameStringPool@@
 r5apex.exe!0x01c8d1c8 .?AVC_GameTimescale@@
 r5apex.exe!0x01ccaa50 .?AVC_ParticleSystemQuery@@
 r5apex.exe!0x01cddfb8 .?AVC_PrecacheHandler@@
@@ -37436,6 +37465,10 @@ r5apex.exe!0x01c85020 .?AVC_TEShatterSurface@@
 r5apex.exe!0x01c81f00 .?AVC_TESoundDispatch@@
 r5apex.exe!0x01c81f10 .?AVC_TESoundDispatch@@
 r5apex.exe!0x0128a108 .?AVC_TempEntsSystem@@
+r5apex.exe!0x034408a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
+r5apex.exe!0x034d10a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
+r5apex.exe!0x034d98a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
+r5apex.exe!0x034e20a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
 r5apex.exe!0x01cb6fc0 .?AVC_TraceFilterSkipTwoEntities@@
 r5apex.exe!0x01cb6ff0 .?AVC_TraceFilterSkipTwoEntities@@
 r5apex.exe!0x01cb7020 .?AVC_TraceFilterSkipTwoEntities@@
@@ -37446,71 +37479,71 @@ r5apex.exe!0x01cb70e0 .?AVC_TraceFilterSkipTwoEntities@@
 r5apex.exe!0x01cb7110 .?AVC_TraceFilterSkipTwoEntities@@
 r5apex.exe!0x01ebd700 .?AVC_TurretList@@
 r5apex.exe!0x01ec4ca0 .?AVC_WeaponXList@@
-r5apex.exe!0x01efb400 .?AVChannel@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc250 .?AVChannelMembershipChangeV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb430 .?AVChannelMessage@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb4e8 .?AVChannelMuteList@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbb10 .?AVChannelMuteListV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbb80 .?AVChannelV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc2a0 .?AVChatChannelUpdateV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc2d0 .?AVChatChannelsRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc2f0 .?AVChatChannelsRequestV2@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc320 .?AVChatChannelsV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc370 .?AVChatConnectedV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc398 .?AVChatDisconnectedV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbbc8 .?AVChatInitiateSuccessV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc3c0 .?AVChatInitiateV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc408 .?AVChatLeaveV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc428 .?AVChatLeftV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc938 .?AVChatMembersRequestErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc450 .?AVChatMembersRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc490 .?AVChatMembersV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc958 .?AVChatTypingEventRequestErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc4e8 .?AVChatTypingEventRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc520 .?AVChatTypingEventV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc570 .?AVChatUserMutedV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc5a8 .?AVChatUserUnmutedV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb480 .?AVChannel@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc2d0 .?AVChannelMembershipChangeV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb4b0 .?AVChannelMessage@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb568 .?AVChannelMuteList@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbb90 .?AVChannelMuteListV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbc00 .?AVChannelV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc320 .?AVChatChannelUpdateV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc350 .?AVChatChannelsRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc370 .?AVChatChannelsRequestV2@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc3a0 .?AVChatChannelsV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc3f0 .?AVChatConnectedV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc418 .?AVChatDisconnectedV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbc48 .?AVChatInitiateSuccessV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc440 .?AVChatInitiateV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc488 .?AVChatLeaveV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc4a8 .?AVChatLeftV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc9b8 .?AVChatMembersRequestErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc4d0 .?AVChatMembersRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc510 .?AVChatMembersV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc9d8 .?AVChatTypingEventRequestErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc568 .?AVChatTypingEventRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc5a0 .?AVChatTypingEventV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc5f0 .?AVChatUserMutedV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc628 .?AVChatUserUnmutedV1@protocol@rtm@antelope@eadp@ea@com@@
 r5apex.exe!0x012a4998 .?AVClientDataBlockReceiver@@
 r5apex.exe!0x018e6f90 .?AVClientModeFullscreen@@
-r5apex.exe!0x01efb520 .?AVCommunication@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efaf48 .?AVCommunication@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efaf80 .?AVCommunicationV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbe90 .?AVCustomMessage@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb5a0 .?AVCommunication@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efafc8 .?AVCommunication@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb000 .?AVCommunicationV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbf10 .?AVCustomMessage@protocol@rtm@antelope@eadp@ea@com@@
 r5apex.exe!0x00e96c40 .?AVDNameStatusNode@@
 r5apex.exe!0x00e96c50 .?AVDNameStatusNode@@
 r5apex.exe!0x00e96c60 .?AVDNameStatusNode@@
 r5apex.exe!0x00e96c70 .?AVDNameStatusNode@@
 r5apex.exe!0x011a3c80 .?AVDenuvoTrialV2@@
-r5apex.exe!0x01f133e0 .?AVDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f134c8 .?AVDescriptorProto_ExtensionRange@protobuf@google@@
-r5apex.exe!0x01f134f0 .?AVDescriptorProto_ReservedRange@protobuf@google@@
-r5apex.exe!0x01f13510 .?AVEnumDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13580 .?AVEnumDescriptorProto_EnumReservedRange@protobuf@google@@
-r5apex.exe!0x01f135a0 .?AVEnumOptions@protobuf@google@@
-r5apex.exe!0x01f135f0 .?AVEnumValueDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13620 .?AVEnumValueOptions@protobuf@google@@
-r5apex.exe!0x01efc9a0 .?AVErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f13670 .?AVExtensionRangeOptions@protobuf@google@@
-r5apex.exe!0x01efc5e0 .?AVFetchStickyMessagesRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f136e0 .?AVFieldDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13760 .?AVFieldOptions@protobuf@google@@
-r5apex.exe!0x01efc978 .?AVFieldViolationV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f137c0 .?AVFileDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13898 .?AVFileDescriptorSet@protobuf@google@@
-r5apex.exe!0x01f138d0 .?AVFileOptions@protobuf@google@@
-r5apex.exe!0x01f13978 .?AVGeneratedCodeInfo@protobuf@google@@
-r5apex.exe!0x01f139b0 .?AVGeneratedCodeInfo_Annotation@protobuf@google@@
-r5apex.exe!0x01efcf30 .?AVGetPreferenceRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcf48 .?AVGetPreferenceResponseV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efd010 .?AVGetRolesRequest@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efd028 .?AVGetRolesResponse@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc600 .?AVGroupMemberAttributeChangeV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb5c0 .?AVGroupMembershipChange@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13460 .?AVDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f13548 .?AVDescriptorProto_ExtensionRange@protobuf@google@@
+r5apex.exe!0x01f13570 .?AVDescriptorProto_ReservedRange@protobuf@google@@
+r5apex.exe!0x01f13590 .?AVEnumDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f13600 .?AVEnumDescriptorProto_EnumReservedRange@protobuf@google@@
+r5apex.exe!0x01f13620 .?AVEnumOptions@protobuf@google@@
+r5apex.exe!0x01f13670 .?AVEnumValueDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f136a0 .?AVEnumValueOptions@protobuf@google@@
+r5apex.exe!0x01efca20 .?AVErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f136f0 .?AVExtensionRangeOptions@protobuf@google@@
+r5apex.exe!0x01efc660 .?AVFetchStickyMessagesRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13760 .?AVFieldDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f137e0 .?AVFieldOptions@protobuf@google@@
+r5apex.exe!0x01efc9f8 .?AVFieldViolationV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13840 .?AVFileDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f13918 .?AVFileDescriptorSet@protobuf@google@@
+r5apex.exe!0x01f13950 .?AVFileOptions@protobuf@google@@
+r5apex.exe!0x01f139f8 .?AVGeneratedCodeInfo@protobuf@google@@
+r5apex.exe!0x01f13a30 .?AVGeneratedCodeInfo_Annotation@protobuf@google@@
+r5apex.exe!0x01efcfb0 .?AVGetPreferenceRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcfc8 .?AVGetPreferenceResponseV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efd090 .?AVGetRolesRequest@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efd0a8 .?AVGetRolesResponse@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc680 .?AVGroupMemberAttributeChangeV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb640 .?AVGroupMembershipChange@protocol@antelope@eadp@ea@com@@
 r5apex.exe!0x018c1ee0 .?AVHardwareConfigDX11@@
-r5apex.exe!0x01efb630 .?AVHeader@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbbe8 .?AVHeartbeatV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb660 .?AVHistoryRequest@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb6a0 .?AVHistoryResponse@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb6b0 .?AVHeader@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbc68 .?AVHeartbeatV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb6e0 .?AVHistoryRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb720 .?AVHistoryResponse@protocol@antelope@eadp@ea@com@@
 r5apex.exe!0x0128a198 .?AVIPredictionSystem_Client@@
 r5apex.exe!0x01312b10 .?AVImeTextStore@@
 r5apex.exe!0x01312b18 .?AVImeTextStore@@
@@ -37520,90 +37553,90 @@ r5apex.exe!0x01312b30 .?AVImeTextStore@@
 r5apex.exe!0x01312b38 .?AVImeTextStore@@
 r5apex.exe!0x01312b40 .?AVImeTextStore@@
 r5apex.exe!0x01312b48 .?AVImeTextStore@@
-r5apex.exe!0x01efcdf0 .?AVInvitation@protocol@respawn@ea@com@@
-r5apex.exe!0x01efca00 .?AVLoginErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb6f0 .?AVLoginRequest@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb130 .?AVLoginRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb158 .?AVLoginRequestV2@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb190 .?AVLoginRequestV3@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb720 .?AVLoginResponse@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbc00 .?AVLoginV2Success@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbc20 .?AVLoginV3Response@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb780 .?AVLogoutRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efce70 .?AVInvitation@protocol@respawn@ea@com@@
+r5apex.exe!0x01efca80 .?AVLoginErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb770 .?AVLoginRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb1b0 .?AVLoginRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb1d8 .?AVLoginRequestV2@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb210 .?AVLoginRequestV3@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb7a0 .?AVLoginResponse@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbc80 .?AVLoginV2Success@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbca0 .?AVLoginV3Response@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb800 .?AVLogoutRequest@protocol@antelope@eadp@ea@com@@
 r5apex.exe!0x0128a8a8 .?AVMapSettingsReseter@@
-r5apex.exe!0x01f139f0 .?AVMessageOptions@protobuf@google@@
-r5apex.exe!0x01f13a40 .?AVMethodDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13a80 .?AVMethodOptions@protobuf@google@@
+r5apex.exe!0x01f13a70 .?AVMessageOptions@protobuf@google@@
+r5apex.exe!0x01f13ac0 .?AVMethodDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f13b00 .?AVMethodOptions@protobuf@google@@
 r5apex.exe!0x01ed4000 .?AVMonitorDefaultChanges@@
-r5apex.exe!0x01efc658 .?AVMuteUserV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbc58 .?AVMutedSetV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb798 .?AVMutedUser@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb7c8 .?AVMutedUserV1@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbf50 .?AVNotificationV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f136b8 .?AVOneofDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13ad0 .?AVOneofOptions@protobuf@google@@
-r5apex.exe!0x01efbc80 .?AVPersonaV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb800 .?AVPlayer@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efce28 .?AVPlayer@protocol@respawn@ea@com@@
-r5apex.exe!0x01efcd60 .?AVPlayer@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcd88 .?AVPlayerInfo@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbec0 .?AVPointToPointMessageV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcae0 .?AVPresenceSubscribeV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcb28 .?AVPresenceSubscriptionErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcb60 .?AVPresenceUnsubscribeV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcba8 .?AVPresenceUpdateErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcbd0 .?AVPresenceUpdateV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcc20 .?AVPresenceV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc688 .?AVPromoteStickyMessageRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb828 .?AVPublishBinaryRequest@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb850 .?AVPublishResponse@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb888 .?AVPublishTextRequest@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efd088 .?AVRateLimitConfigV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb1e0 .?AVReconnectRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc6c0 .?AVRemoveStickyMessageRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcc80 .?AVRichPresenceV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc6d8 .?AVMuteUserV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbcd8 .?AVMutedSetV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb818 .?AVMutedUser@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb848 .?AVMutedUserV1@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbfd0 .?AVNotificationV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13738 .?AVOneofDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f13b50 .?AVOneofOptions@protobuf@google@@
+r5apex.exe!0x01efbd00 .?AVPersonaV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb880 .?AVPlayer@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcea8 .?AVPlayer@protocol@respawn@ea@com@@
+r5apex.exe!0x01efcde0 .?AVPlayer@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efce08 .?AVPlayerInfo@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbf40 .?AVPointToPointMessageV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcb60 .?AVPresenceSubscribeV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcba8 .?AVPresenceSubscriptionErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcbe0 .?AVPresenceUnsubscribeV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcc28 .?AVPresenceUpdateErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcc50 .?AVPresenceUpdateV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcca0 .?AVPresenceV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc708 .?AVPromoteStickyMessageRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb8a8 .?AVPublishBinaryRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb8d0 .?AVPublishResponse@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb908 .?AVPublishTextRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efd108 .?AVRateLimitConfigV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb260 .?AVReconnectRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc740 .?AVRemoveStickyMessageRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcd00 .?AVRichPresenceV1@protocol@rtm@antelope@eadp@ea@com@@
 r5apex.exe!0x012d5c80 .?AVSVC_UserMessage@@
-r5apex.exe!0x01efd0b0 .?AVServerConfigRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efd0c8 .?AVServerConfigV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f13b20 .?AVServiceDescriptorProto@protobuf@google@@
-r5apex.exe!0x01f13b60 .?AVServiceOptions@protobuf@google@@
-r5apex.exe!0x01efbcb0 .?AVSessionCleanupV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbfa0 .?AVSessionNotificationV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbcd0 .?AVSessionRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbce8 .?AVSessionResponseV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbd18 .?AVSessionV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f13bb0 .?AVSourceCodeInfo@protobuf@google@@
-r5apex.exe!0x01f13be0 .?AVSourceCodeInfo_Location@protobuf@google@@
-r5apex.exe!0x01efc6e8 .?AVStickyMessageChangedV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc710 .?AVStickyMessageResponseV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbd50 .?AVStickyMessageV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb8b8 .?AVSubscribeRequest@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb8e0 .?AVSubscribeResponse@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbdb0 .?AVSuccessV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb930 .?AVTextMessage@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbdf0 .?AVTextMessageV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcf68 .?AVTranslationPreferenceV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01f13c50 .?AVUninterpretedOption@protobuf@google@@
-r5apex.exe!0x01f13738 .?AVUninterpretedOption_NamePart@protobuf@google@@
-r5apex.exe!0x01efc748 .?AVUnmuteUserV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb988 .?AVUnsubscribeRequest@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efb9a8 .?AVUnsubscribeResponse@protocol@antelope@eadp@ea@com@@
-r5apex.exe!0x01efcf90 .?AVUpdatePreferenceRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efbf78 .?AVUserMembershipChangeV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efd130 .?AVServerConfigRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efd148 .?AVServerConfigV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13ba0 .?AVServiceDescriptorProto@protobuf@google@@
+r5apex.exe!0x01f13be0 .?AVServiceOptions@protobuf@google@@
+r5apex.exe!0x01efbd30 .?AVSessionCleanupV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc020 .?AVSessionNotificationV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbd50 .?AVSessionRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbd68 .?AVSessionResponseV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbd98 .?AVSessionV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13c30 .?AVSourceCodeInfo@protobuf@google@@
+r5apex.exe!0x01f13c60 .?AVSourceCodeInfo_Location@protobuf@google@@
+r5apex.exe!0x01efc768 .?AVStickyMessageChangedV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc790 .?AVStickyMessageResponseV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbdd0 .?AVStickyMessageV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb938 .?AVSubscribeRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb960 .?AVSubscribeResponse@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbe30 .?AVSuccessV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efb9b0 .?AVTextMessage@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbe70 .?AVTextMessageV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efcfe8 .?AVTranslationPreferenceV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01f13cd0 .?AVUninterpretedOption@protobuf@google@@
+r5apex.exe!0x01f137b8 .?AVUninterpretedOption_NamePart@protobuf@google@@
+r5apex.exe!0x01efc7c8 .?AVUnmuteUserV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efba08 .?AVUnsubscribeRequest@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efba28 .?AVUnsubscribeResponse@protocol@antelope@eadp@ea@com@@
+r5apex.exe!0x01efd010 .?AVUpdatePreferenceRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efbff8 .?AVUserMembershipChangeV1@protocol@rtm@antelope@eadp@ea@com@@
 r5apex.exe!0x01ed0940 .?AVVPanelWrapper@@
-r5apex.exe!0x01efca30 .?AVValidationErrorV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc778 .?AVWorldChatAssignV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc7a0 .?AVWorldChatChannelsRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc7d0 .?AVWorldChatChannelsResponseV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc810 .?AVWorldChatConfigurationRequestV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc828 .?AVWorldChatConfigurationResponseV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc858 .?AVWorldChatMembershipChangeV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc880 .?AVWorldChatResponseV1@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efc8e0 .?AVWorldChatShard@protocol@rtm@antelope@eadp@ea@com@@
-r5apex.exe!0x01efce50 .?AVeadpRespawnPresence@protocol@respawn@ea@com@@
-r5apex.exe!0x01efcea0 .?AVp2pPayload@protocol@respawn@ea@com@@
-r5apex.exe!0x01efae08 .?AVstl_critical_section_win7@details@Concurrency@@
-r5apex.exe!0x04199bd8 .?AVstl_critical_section_win7@details@Concurrency@@
-r5apex.exe!0x0419ac38 .?AVstl_critical_section_win7@details@Concurrency@@
+r5apex.exe!0x01efcab0 .?AVValidationErrorV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc7f8 .?AVWorldChatAssignV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc820 .?AVWorldChatChannelsRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc850 .?AVWorldChatChannelsResponseV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc890 .?AVWorldChatConfigurationRequestV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc8a8 .?AVWorldChatConfigurationResponseV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc8d8 .?AVWorldChatMembershipChangeV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc900 .?AVWorldChatResponseV1@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efc960 .?AVWorldChatShard@protocol@rtm@antelope@eadp@ea@com@@
+r5apex.exe!0x01efced0 .?AVeadpRespawnPresence@protocol@respawn@ea@com@@
+r5apex.exe!0x01efcf20 .?AVp2pPayload@protocol@respawn@ea@com@@
+r5apex.exe!0x01efae88 .?AVstl_critical_section_win7@details@Concurrency@@
+r5apex.exe!0x04199c58 .?AVstl_critical_section_win7@details@Concurrency@@
+r5apex.exe!0x0419acb8 .?AVstl_critical_section_win7@details@Concurrency@@
 ```
 
