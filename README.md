@@ -26,9 +26,9 @@ r5apex.exe!0x011ba178 VMaterialSystemConfig004
 ## Miscellaneous
 
 ```
-TimeDateStamp = 0x60947dfb
-CheckSum = 0x203c6fc
-GameVersion = "v3.0.1.192"
+TimeDateStamp = 0x60a2e9d5
+CheckSum = 0x203efb5
+GameVersion = "v3.0.2.238"
 NUM_ENT_ENTRIES = 0x10000
 r5apex.exe!0x18eda78 cl_entitylist
 r5apex.exe!0x11bc998 LocalEntityHandle
@@ -37248,7 +37248,6 @@ r5apex.exe!0x01edc778 .?AVCBaseResourcePrecacher@@
 r5apex.exe!0x01edf268 .?AVCBaseResourcePrecacher@@
 r5apex.exe!0x01edf328 .?AVCBaseResourcePrecacher@@
 r5apex.exe!0x04f60130 .?AVCBik@@
-r5apex.exe!0x069e4538 .?AVCBik@@
 r5apex.exe!0x01ecf588 .?AVCBoolProperty@@
 r5apex.exe!0x01c6f5d0 .?AVCCascadeLightManager@@
 r5apex.exe!0x01c97380 .?AVCCenterPrint@@
@@ -37287,33 +37286,12 @@ r5apex.exe!0x011c3e40 .?AVCEngine@@
 r5apex.exe!0x0130f7a0 .?AVCEngineAPI@@
 r5apex.exe!0x011b5668 .?AVCEngineClient@@
 r5apex.exe!0x02c42318 .?AVCEngineClient@@
+r5apex.exe!0x0690a570 .?AVCEngineClient@@
 r5apex.exe!0x011b9c98 .?AVCEngineConsoleLoggingListener@@
 r5apex.exe!0x011b5298 .?AVCEngineTraceClient@@
 r5apex.exe!0x011b3a58 .?AVCEngineTraceClientDecals@@
 r5apex.exe!0x011b76d8 .?AVCEngineUniformRandomStream@@
 r5apex.exe!0x011c35c0 .?AVCEngineVGui@@
-r5apex.exe!0x0338fa98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x03398298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033a0a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033a9298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033b1a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033ba298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033c2a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033cb298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033d3a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033dc298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033e4a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033ed298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033f5a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x033fe298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x03406a98 .?AVCEntityListAlongRay@@
-r5apex.exe!0x0340f298 .?AVCEntityListAlongRay@@
-r5apex.exe!0x0344aaa8 .?AVCEntityListAlongRay@@
-r5apex.exe!0x034532a8 .?AVCEntityListAlongRay@@
-r5apex.exe!0x0345baa8 .?AVCEntityListAlongRay@@
-r5apex.exe!0x034642a8 .?AVCEntityListAlongRay@@
-r5apex.exe!0x0346caa8 .?AVCEntityListAlongRay@@
-r5apex.exe!0x034752a8 .?AVCEntityListAlongRay@@
 r5apex.exe!0x012d1c60 .?AVCEntityReadInfo@@
 r5apex.exe!0x018c8350 .?AVCEventSystem@@
 r5apex.exe!0x0128b3d8 .?AVCExampleEffect@@
@@ -37332,6 +37310,22 @@ r5apex.exe!0x011b4e20 .?AVCIVDebugOverlay@@
 r5apex.exe!0x01c86940 .?AVCInput@@
 r5apex.exe!0x013143e0 .?AVCInputStackSystem@@
 r5apex.exe!0x01314500 .?AVCInputSystem@@
+r5apex.exe!0x03299dc0 .?AVCInputSystem@@
+r5apex.exe!0x032a25c0 .?AVCInputSystem@@
+r5apex.exe!0x032aadc0 .?AVCInputSystem@@
+r5apex.exe!0x032b35c0 .?AVCInputSystem@@
+r5apex.exe!0x032bbdc0 .?AVCInputSystem@@
+r5apex.exe!0x032c45c0 .?AVCInputSystem@@
+r5apex.exe!0x032ccdc0 .?AVCInputSystem@@
+r5apex.exe!0x032d55c0 .?AVCInputSystem@@
+r5apex.exe!0x032dddc0 .?AVCInputSystem@@
+r5apex.exe!0x032e65c0 .?AVCInputSystem@@
+r5apex.exe!0x032eedc0 .?AVCInputSystem@@
+r5apex.exe!0x032f75c0 .?AVCInputSystem@@
+r5apex.exe!0x032ffdc0 .?AVCInputSystem@@
+r5apex.exe!0x033085c0 .?AVCInputSystem@@
+r5apex.exe!0x0336e5c0 .?AVCInputSystem@@
+r5apex.exe!0x03376dc0 .?AVCInputSystem@@
 r5apex.exe!0x07844dc0 .?AVCInputWin32@@
 r5apex.exe!0x01ecf598 .?AVCIntProperty@@
 r5apex.exe!0x018eab70 .?AVCKeyBindingListenerMgr@@
@@ -37404,12 +37398,6 @@ r5apex.exe!0x01ed06b0 .?AVCSystem@@
 r5apex.exe!0x01c7cee0 .?AVCTempEnts@@
 r5apex.exe!0x01ed0b00 .?AVCTextureDictionary@@
 r5apex.exe!0x01ecf690 .?AVCTextureIdProperty@@
-r5apex.exe!0x03448f48 .?AVCTraceFilterHitAll@@
-r5apex.exe!0x03451748 .?AVCTraceFilterHitAll@@
-r5apex.exe!0x03459f48 .?AVCTraceFilterHitAll@@
-r5apex.exe!0x03462748 .?AVCTraceFilterHitAll@@
-r5apex.exe!0x0346af48 .?AVCTraceFilterHitAll@@
-r5apex.exe!0x03473748 .?AVCTraceFilterHitAll@@
 r5apex.exe!0x01ecafb8 .?AVCTraceFilterPhysicsTunnel_Client@@
 r5apex.exe!0x011b6968 .?AVCUniformRandomStream@@
 r5apex.exe!0x011bc558 .?AVCUniformRandomStream@@
@@ -37465,10 +37453,9 @@ r5apex.exe!0x01c85020 .?AVC_TEShatterSurface@@
 r5apex.exe!0x01c81f00 .?AVC_TESoundDispatch@@
 r5apex.exe!0x01c81f10 .?AVC_TESoundDispatch@@
 r5apex.exe!0x0128a108 .?AVC_TempEntsSystem@@
-r5apex.exe!0x034408a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
-r5apex.exe!0x034d10a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
-r5apex.exe!0x034d98a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
-r5apex.exe!0x034e20a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
+r5apex.exe!0x034160a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
+r5apex.exe!0x0341e8a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
+r5apex.exe!0x034270a0 .?AVC_TraceFilterSkipNPCsAndPlayers@@
 r5apex.exe!0x01cb6fc0 .?AVC_TraceFilterSkipTwoEntities@@
 r5apex.exe!0x01cb6ff0 .?AVC_TraceFilterSkipTwoEntities@@
 r5apex.exe!0x01cb7020 .?AVC_TraceFilterSkipTwoEntities@@
